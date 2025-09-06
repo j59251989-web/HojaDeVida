@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UFT-8">
+  <meta name="viewport" content= "width=device-width;initial-sacle=1.0">
+  <title>HOJA DE VIDA </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+ <body> <!--contine todo el contenido de la pagina(textos,imagenes,etc.)-->
+  <div class="container"> <!-- Un contenedor general para organizar el contenido la clase container se usa un css para dar estilos(como margenes o anchos),-->
+    <!-- Encabezado como nombre y foto-->
+    <header> <!--seccion semantica para el encabezado de la pagina(logo,nombre,titulo)-->
+    <img src="imagenes/foto.jpeg" alt=" Mi foto" style="margin:0 auto; width: 120px; border-radius:30%;">
+    <h1>Jose Angel Rios Ortozco</h1>
+    <p>Desarrollador web</p>
+ </header>
+
+  <!--Boton de imprimir-->
+  <div class="print-botton-container">
+      <button onclick="window.print()"class="print-button">🖨️ Imprimir/Guardar PDF</button>
+  </div>
+
+<!--secciones principales-->
+<section class="section">
+    <h2>Informacion personal</h2>
+    <ul><!--Crea una lista desordenada (con viñetas). Cada <li> es un ítem de la lista.--></ul>
+      <li><strogn>Email:</strogn>j592519892@gmail.com</li>
+      <li><strogn>telefono</strogn>+57 3127217110</li>
+      <li><strogn>Ubicacion</strogn>Aguadas caladas</li>
+   
+    </ul>
+   </section>
+
+   <section class="section">
+   <h2>Educacion</h2>
+   <div class="item"><!--Un contenedor para agrupar elementos relacionados-->
+    <h3>Institucion educativa roberto pelaez</h3>
+    <p>Bachiller tecnico en diseño web - 2025</p>
+   </div>
+   </section>
+
+   <section class="section">
+    <h2>Experiencia laboral</h2>
+    <div class="item">
+        <h3>practicante</h3>
+        <p>Diseño de interfaces con figma - 2025</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Habilidades</h2>
+      <ul class="skills"> <!--Lista desordenada con la clase skills para estilos personalizados (ej: mostrar habilidades)-->
+      <li>HTML/CSS</li>
+      <li>Figma</li>
+      <li>JavaScript Basico</li>
+    </ul>
+  </section>
+ </div> <!--cierra el contenedor principal-->
+</body>
+</html>
+  
