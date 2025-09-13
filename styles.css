@@ -1,101 +1,107 @@
-/*Estilos generales */
+/* Estilos generales */
 body {
-    font-family:'Araial',sans-serif;
-    line-height:1.6;
-    background-color: #f4f4f4;
-    color:#333;
-    margin:0;
-    padding: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
+
 .container {
-    width: 80%;
-    max-width: 800px;
-    margin: 20px auto;
-    background:white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
- }
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
- /*Encabezado*/
- header{
-    text-align: center;
-    margin-bottom: 20px;
- }
+/* Encabezado */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
- .profile-pic{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border:3px sould #007bff;
- }
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
+}
 
- h1{
-    color: #007bff;
-    margin:10px 0;
- }
+h1 {
+  color: #007bff;
+  margin: 10px 0;
+}
 
- /*secciones */
- .section{
-    margin-bottom: 25px;
-    padding-bottom: 15px;
-    border-bottom: 1px dashed #ddd;
- }
+/* Secciones */
+.section {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #ddd;
+}
 
- h2{
-    color: #2c3e50;
-    font-size: 1.1em;
- }
+h2 {
+  color: #2c3e50;
+  font-size: 1.2em;
+}
 
- h3{
-    margin: 5px 0;
-    font-size: 1.1em;
- }
+h3 {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
 
- /*listas*/
- ul {
-    padding-left: 20px;
- }
+/* Listas */
+ul {
+  padding-left: 20px;
+}
 
- .skills{
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-wrap:wrap;
-    gap:10px;
- }
+.skills {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
- .skills li {
-    background: #3A86FF;
-    COLOR: white;
-    padding: 5px 10px;
-    border-radius: 5px;
+.skills li {
+  background: #3A86FF;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
 
- }
-   /*Estilos para el boton de imprimir */
-    .print-button-container {
-      text-align: center;
-      margin: 20px 0;
-    }   
+/* Botón de imprimir - CENTRADO */
+.print-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
 
-    .print-button {
-      background: #167dd1;
-      color:  rgb(255, 255, 255,);
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-      transition: background-color 0.3s;
-    }
+.print-button {
+  background: #167dd1;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
 
-    .print-button:hover{
-      background-color: #45a049;
-    }
+.print-button:hover {
+  background-color: #45a049;
+}
 
-    /*Estilos ´para impresion */
-    @media print {
-      .print-button-container {
-         display: none;
-      }
+/* Estilos para impresión */
+@media print {
+  .print-button-container {
+    display: none;
+  }
+}
+
+
     }
